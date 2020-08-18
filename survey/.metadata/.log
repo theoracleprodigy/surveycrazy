@@ -1,0 +1,26 @@
+!SESSION Tue Sep 13 12:45:06 CDT 2005 ------------------------------------------
+!ENTRY org.eclipse.core.launcher 4 0 Sep 13, 2005 12:45:06.546
+!MESSAGE -showsplash
+!STACK
+java.lang.NullPointerException
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:441)
+	at java.lang.Runtime.exec(Runtime.java:591)
+	at java.lang.Runtime.exec(Runtime.java:464)
+	at org.eclipse.core.launcher.Main.runCommand(Main.java:1462)
+	at org.eclipse.core.launcher.Main.handleSplash(Main.java:1438)
+	at org.eclipse.core.launcher.Main.basicRun(Main.java:266)
+	at org.eclipse.core.launcher.Main.run(Main.java:942)
+	at org.eclipse.core.launcher.Main.main(Main.java:926)
+
+!ENTRY org.eclipse.core.launcher 4 0 Sep 13, 2005 12:47:40.328
+!MESSAGE -exitdata
+!STACK
+java.lang.NullPointerException
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:441)
+	at java.lang.Runtime.exec(Runtime.java:591)
+	at java.lang.Runtime.exec(Runtime.java:464)
+	at org.eclipse.core.launcher.Main.runCommand(Main.java:1462)
+	at org.eclipse.core.launcher.Main.setExitData(Main.java:981)
+	at org.eclipse.core.launcher.Main.run(Main.java:972)
+	at org.eclipse.core.launcher.Main.main(Main.java:926)
+
