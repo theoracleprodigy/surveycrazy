@@ -10,7 +10,7 @@
 	<history
 		type="create"
 		date="May 10, 2005"
-		email="jonathan.powell@auguste.com"
+		email="theoracleprodigy@yahoo.com"
 		role="architect">
 	</properties>
 	<io>
@@ -25,8 +25,8 @@
 </fusedoc>
 --->
 
-<cfif attributes.username eq "administrator" and attributes.password eq "1747Magnolia">
-	
+<cfif attributes.username eq "administrator" and attributes.password eq "changeme">
+
 	<cflock type="exclusive" scope="session" timeout="10">
 		<cfset session.login = "true">
 		<cfset session.permissions = "level4">
